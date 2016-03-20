@@ -20,12 +20,12 @@ CREATE TABLE `es_terms` (
   PRIMARY KEY (`term_id`),
   KEY `slug` (`slug`(191)),
   KEY `name` (`name`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `es_terms` WRITE;
 /*!40000 ALTER TABLE `es_terms` DISABLE KEYS */;
-INSERT INTO `es_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Main','main',0),(3,'Page','page',0),(4,'Group','group',0);
+INSERT INTO `es_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Main','main',0),(3,'Page','page',0),(4,'Group','group',0),(5,'Evolution Studio','evolution-studio-1563820127171525',0);
 /*!40000 ALTER TABLE `es_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

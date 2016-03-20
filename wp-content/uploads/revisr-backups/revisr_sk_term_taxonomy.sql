@@ -27,7 +27,7 @@ CREATE TABLE `sk_term_taxonomy` (
 
 LOCK TABLES `sk_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `sk_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `sk_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'nav_menu','',0,2),(3,3,'post_tag','Facebook Page',0,201),(4,4,'post_tag','Facebook Group',0,0),(5,5,'category','Manish Sewaliya Dance Choreographer; id = 271885116158655',0,201),(6,6,'post_format','',0,3),(7,7,'post_format','',0,2);
+INSERT INTO `sk_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'nav_menu','',0,6),(3,3,'post_tag','Facebook Page',0,201),(4,4,'post_tag','Facebook Group',0,0),(5,5,'category','Manish Sewaliya Dance Choreographer; id = 271885116158655',0,201),(6,6,'post_format','',0,3),(7,7,'post_format','',0,2);
 /*!40000 ALTER TABLE `sk_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
